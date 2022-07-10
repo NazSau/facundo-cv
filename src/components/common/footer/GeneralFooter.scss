@@ -1,0 +1,31 @@
+.footer-container {
+  background-color: #011F4B;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 30px);
+  color: #fff;
+
+  .footer-title {
+    padding: 0 15px;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 15px;
+    li:hover {
+      color: #0365F5;
+      text-decoration: underline;
+    }
+  }
+  .social-media-links {
+    float: right;
+    width: 50%;
+    .social-media-icon {
+      height: 30px;
+      width: 30px;
+      &:hover{
+        fill: #0365F5 !important
+      }
+    }
+  }
+}
