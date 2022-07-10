@@ -51,10 +51,10 @@ const GeneralFooter = () => {
       </div>
 
       <div className="social-media-links">
-        <a href="https://www.linkedin.com/in/facundo-arga%C3%B1araz-83861a11b/" target="_blank">
+        <a href="https://www.linkedin.com/in/facundo-arga%C3%B1araz-83861a11b/" targe="_blank" rel="noreferrer">
           <LinkedinIcon className="social-media-icon"/>
         </a>
-        <a href="https://www.instagram.com/facu_arga/" target="_blank">
+        <a href="https://www.instagram.com/facu_arga/" target="_blank" rel="noreferrer">
           <InstagramIcon className="social-media-icon"/>
         </a>
       </div>
